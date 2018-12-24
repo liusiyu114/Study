@@ -1,5 +1,6 @@
 package com.siyu.datastructure.LinkedList.test;
 
+import com.siyu.datastructure.LinkedList.DoublePointLinkedList;
 import com.siyu.datastructure.LinkedList.SingleLinkedList;
 import org.junit.Test;
 
@@ -35,7 +36,14 @@ public class SingleLinkedListTest {
     }
 
     @Test
-    public void goOrNotGo(){
-
+    public void test1(){
+        DoublePointLinkedList dpl = new DoublePointLinkedList();
+        dpl.addTail("A");
+        dpl.addTail("B");
+        dpl.addTail("C");
+        dpl.addTail("D");
+        dpl.addTail("E");
+        dpl.addTail("F");
+        dpl.display();
     }
 }
